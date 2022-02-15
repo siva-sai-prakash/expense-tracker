@@ -125,3 +125,59 @@ td{
     border: 1px solid black;
     border-radius: 2px;
 }
+
+@media screen and (max-width:705px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0.2rem;
+    }
+    main h1{
+        margin: 1rem;
+    }
+    main .add-item{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .add-item h2{
+        color: rgb(1, 145, 1);
+        margin-bottom: 0rem;
+    }
+    main .add-item .input{
+        padding: 1rem;
+        width: 100%;
+    }
+    .input-item{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        margin: 0.1rem auto !important;
+    }
+    p{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    main .add-item .input .input-item input[type='text']{
+        width: 80vw;
+        height: 2rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    input{
+        /* background: #000; */
+        width: 100%;
+        height: 2rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
